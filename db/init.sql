@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS price_data (
+    id SERIAL PRIMARY KEY,
+    ts TIMESTAMP NOT NULL,
+    price FLOAT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS signals (
+    id SERIAL PRIMARY KEY,
+    ts TIMESTAMP NOT NULL,
+    signal_type TEXT NOT NULL,
+    price FLOAT NOT NULL
+);
