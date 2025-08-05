@@ -1,6 +1,6 @@
 # Trade Signal Pipeline
 
-Trade Signal Pipeline is a Python-based project that simulates a simple trading signal system on minute-level price data. It generates buy and sell signals based on price movements, stores data and signals in a PostgreSQL database, and performs a portfolio simulation to evaluate strategy profitability. The project includes Data generation, Signal logic, Database integration, Reporting scripts, and Testing.
+Trade Signal Pipeline is a Python-based project that simulates a trading signal system on minute-level price data. It generates buy and sell signals based on price movements, stores data and signals in a PostgreSQL database, and performs a portfolio simulation to evaluate strategy profitability. The project includes Data generation, Signal logic, Database integration, Reporting scripts, and Testing.
 
 ---
 
